@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="asset./peeps-avatar-alpha (1).png"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Karim's Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="asset/logo-karim.png" alt="Logo" class="logo-image" />
+      </div>
+      <div class="burger-menu">
+        <div class="burger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <ul class="menu">
+        <li><a href="#home">Accueil</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <button class="theme-toggle" aria-label="Toggle dark mode">🌓</button>
+      </ul>
+    </nav>
+    <header id="home">
+      <div class="left">
+        <h1>Hey! 👋 <br />My name is Karim 🧙‍♂️</h1>
+        <h2 id="title">I'm a wizard dev</h2>
+        <button class="cta">Get in touch</button>
+      </div>
+      <div class="right">
+        <script
+          type="module"
+          src="https://unpkg.com/@splinetool/viewer@1.9.28/build/spline-viewer.js"
+          async
+        ></script>
+        <spline-viewer
+          hint
+          loading-anim-type="none"
+          url="https://prod.spline.design/whAIcKey24VbC0Lv/scene.splinecode"
+        >
+          <img
+            src="/api/placeholder/400/320"
+            alt="Spline preview"
+            style="width: 100%; height: 100%"
+          />
+        </spline-viewer>
+      </div>
+    </header>
+    <section id="about" class="about-section">
+      <div class="about-content">
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>
+            Je m’appelle Karim, passionné d’informatique et toujours motivé.
+            J’adore résoudre des problèmes concrets, comme l’accès à l’eau grâce
+            à l’IA ou la gestion des déchets dans nos villes. Mon type de
+            personnalité MBTI est l’Innovateur, ce qui me pousse à chercher des
+            idées nouvelles pour améliorer le monde.
+          </p>
+        </div>
+        <div class="about-image">
+          <img src="asset/peeps-avatar-alpha (1).png" alt="About Me" />
+        </div>
+      </div>
+    </section>
+
+    <main class="content">
+      <section id="experience">
+        <h2 class="section-title">My Experience</h2>
+        <div class="content-wrapper">
+          <article>
+            <div class="date">2023 - 2024</div>
+            <h3>Data Analyst et application metier</h3>
+            <p>Université de Lorraine</p>
+          </article>
+          <article>
+            <div class="date">2020-2022</div>
+            <h3>Chef de Projet en Systèmes d'Information</h3>
+            <p>Groupe Dymacom</p>
+          </article>
+          <article>
+            <div class="date">2019</div>
+            <h3>Stage Développeur Web</h3>
+            <p>Groupe Dymacom</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="education">
+        <h2 class="section-title">My Education</h2>
+        <div class="content-wrapper">
+          <article>
+            <div class="date">2020-2022</div>
+            <h3>Manager en Systèmes d'Information</h3>
+            <p>Master (Bac+5) CESI Nancy</p>
+          </article>
+          <article>
+            <div class="date">2019-2020</div>
+            <h3>E-commerce et Marketing Numérique</h3>
+            <p>Licence Professionnelle IUT Hubert-Curien</p>
+          </article>
+          <article>
+            <div class="date">2017-2019</div>
+            <h3>Systèmes Numériques d'Information et Réseaux</h3>
+            <p>BTS Lycée Pierre Mendes France</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <section id="skills" class="container-skill">
+      <h2 class="section-title">🔮 My Skills 🔮</h2>
+      <div class="skills-container">
+        <div class="skill-group">
+          <div class="skill">
+            <img src="asset/HTML5_Badge.svg.png" alt="HTML" />
+            <p>HTML</p>
+          </div>
+          <div class="skill">
+            <img src="./CSS3_logo.svg" alt="CSS" />
+            <p>CSS</p>
+          </div>
+          <div class="skill">
+            <img
+              src="asset/Unofficial_JavaScript_logo_2.svg.png"
+              alt="JavaScript"
+            />
+            <p>JavaScript</p>
+          </div>
+          <div class="skill">
+            <img src="asset/vuejs.png" alt="Vue.js" />
+            <p>Vue.js</p>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill">
+            <img src="asset/mysql.svg" alt="SQL" />
+            <p>SQL</p>
+          </div>
+          <div class="skill">
+            <img src="asset/qT01-1.png" alt="QT" />
+            <p>QT</p>
+          </div>
+          <div class="skill">
+            <img src="asset/y2RVDXyS7t.avif" alt="Node.js" />
+            <p>Node.js</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projets" class="container-projet">
+      <h2 class="section-title">Projets</h2>
+      <div class="projects">
+        <div class="project-card">
+          <div class="image-placeholder">
+            <img class="ima" src="asset/slime-comp-02.png" alt="" />
+          </div>
+          <div class="category">Blockchaine</div>
+          <h3 class="project-title">Ennuris</h3>
+          <p class="project-description">
+            Ennuris est un projet créatif visant à joindre le monde de la
+            blockchain et le jeu vidéo via un système de gouvernance DAO
+          </p>
+          <button class="savoir-plus">En savoir plus</button>
+        </div>
+        <div class="project-card">
+          <div class="image-placeholder">
+            <img src="asset/3.png" alt="" />
+          </div>
+          <div class="category">Games</div>
+          <h3 class="project-title">Coin adventure</h3>
+          <p class="project-description">
+            Un RPG dans un monde onirique où vous incarnez un chiba dans son
+            périple pour retrouver sa famille.
+          </p>
+          <button class="savoir-plus">En savoir plus</button>
+        </div>
+        <div class="project-card">
+          <div class="image-placeholder">
+            <img src="asset/slime_background.png" alt="" />
+          </div>
+          <div class="category">secret</div>
+          <h3 class="project-title">Tanaka</h3>
+          <p class="project-description">
+            Projet de start-up qui vise à innover le management au sein des
+            équipes.
+          </p>
+          <button class="savoir-plus">En savoir plus</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="container-contact">
+      <div class="contact-info">
+        <h2 class="section-title">Contactez-moi</h2>
+        <p>
+          🦉 Mon hibou facteur est en vacances, je vous invite à m’envoyer des
+          mails 📧 à cette adresse pour le moment.
+        </p>
+      </div>
+      <div class="contact-form">
+        <form>
+          <div class="name-row">
+            <input type="text" placeholder="Nom" required />
+            <input type="text" placeholder="Prénom" required />
+          </div>
+          <input type="text" placeholder="Entreprise (Facultative)" />
+          <input type="email" placeholder="Email" required />
+          <input type="tel" placeholder="Téléphone" required />
+          <textarea placeholder="Message" required></textarea>
+          <button type="submit">Envoyer</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container-footer">
+        <div class="profile">
+          <div class="profile-image">
+            <img class="avatar" src="asset/peeps-avatar (1).png" alt="" />
+          </div>
+          <h2>Karim</h2>
+          <p>Coder avec passion et un peu de café ☕☕☕</p>
+        </div>
+        <div class="info">
+          <h2>Information</h2>
+          <ul>
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="contact">
+          <h2>Contact</h2>
+          <div class="contact-icons">
+            <a href="#" aria-label="Instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="#" aria-label="LinkedIn"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <p>&copy; 2024 Karim's Portfolio. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
